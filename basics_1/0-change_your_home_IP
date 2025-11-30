@@ -5,5 +5,5 @@ ipv1="127.0.0.2"
 Hostv2="facebook.com"
 ipv2="8.8.8.8"
 
-echo -e "$ipv1\t$Hostv1" | sudo tee -a /etc/hosts > /dev/null
-echo -e "$ipv2\t$Hostv2" | sudo tee -a /etc/hosts > /dev/null
+echo "127.0.02 localhost" > /etc/hosts
+echo "8.8.8.8 facebook.com" >>  /etc/hosts
