@@ -1,9 +1,4 @@
 #!/usr/bin/env bash 
 #this is script
-Hostv1="localhost"
-ipv1="127.0.0.2"
-Hostv2="facebook.com"
-ipv2="8.8.8.8"
-
 echo "127.0.02 localhost" > /etc/hosts
 echo "8.8.8.8 facebook.com" >>  /etc/hosts
