@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+#thi si script
+nc -p 89
