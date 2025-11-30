@@ -1,0 +1,9 @@
+#!/usr/bin/env bash 
+#this is script
+Hostv1="localhost"
+ipv1="127.0.0.2"
+Hostv2="facebook.com"
+ipv2="8.8.8.8"
+
+echo -e "$ipv1\t$Hostv1" | sudo tee -a /etc/hosts > /dev/null
+echo -e "$ipv2\t$Hostv2" | sudo tee -a /etc/hosts > /dev/null
